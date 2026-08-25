@@ -104,16 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
   `;
   
   // Inyectar header al inicio del body
-  if (document.body.firstChild) {
-    document.body.insertBefore(
-      document.createElement('div').appendChild(
-        new DOMParser().parseFromString(headerHTML, 'text/html').body.firstChild
-      ).parentNode.removeChild(document.body.firstChild),
-      document.body.firstChild
-    );
-  } else {
-    document.body.insertAdjacentHTML('afterbegin', headerHTML);
-  }
+  document.body.insertAdjacentHTML('afterbegin', headerHTML);
   
   // Inyectar footer al final del body
   document.body.insertAdjacentHTML('beforeend', footerHTML);
