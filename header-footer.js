@@ -82,10 +82,10 @@ document.addEventListener('DOMContentLoaded', function() {
             <h4 class="font-title font-bold text-lg text-green-400 mb-4">Contacto</h4>
             <ul class="space-y-2 text-gray-400 text-sm">
               <li>📍 Granollers y Vallès Oriental</li>
-              <li>✉️ sandra.castejon.fanlo@gmail.com</li>
-              <li>📲 637 188 347</li>
-              <li><a href="#" class="hover:text-yellow-400 transition-colors">📸 Instagram @yogakids_club</a></li>
-              <li><a href="#" class="hover:text-yellow-400 transition-colors">▶️ YouTube @yogakids_club</a></li>
+              <li><a href="mailto:sandra.castejon.fanlo@gmail.com" class="hover:text-yellow-400 transition-colors">✉️ sandra.castejon.fanlo@gmail.com</a></li>
+              <li><a href="https://wa.me/34637188347" class="hover:text-yellow-400 transition-colors">📲 637 188 347</a></li>
+              <li><a href="https://www.instagram.com/yogakids_club/" target="_blank" class="hover:text-yellow-400 transition-colors">📸 Instagram @yogakids_club</a></li>
+              <li><a href="https://www.youtube.com/@yogakids_club" target="_blank" class="hover:text-yellow-400 transition-colors">▶️ YouTube @yogakids_club</a></li>
             </ul>
           </div>
         </div>
