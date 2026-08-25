@@ -126,9 +126,6 @@
   .checkbox-row{ display:flex; align-items:center; gap:10px; font-size:14.5px; color:var(--tinta-suave); }
   .checkbox-row input{ width:18px; height:18px; accent-color:var(--terracota); }
   .form-box .btn{ margin-top:10px; width:100%; }
-  .form-status{ display:none; padding:12px 16px; border-radius:var(--r-md); margin-bottom:16px; font-weight:600; }
-  .form-status.success{ display:block; background:rgba(79,199,119,0.15); color:var(--verde-fuerte); }
-  .form-status.error{ display:block; background:rgba(206,126,103,0.15); color:var(--terracota-fuerte); }
 
   #contacto{ background:linear-gradient(135deg, var(--terracota), var(--terracota-fuerte)); color:#fff; text-align:center; border-radius:var(--r-xl); max-width:1180px; margin:0 auto 40px; padding:70px 60px; }
   #contacto h2{ color:#fff; font-size:clamp(28px,4vw,38px); max-width:680px; margin:0 auto; }
@@ -287,7 +284,6 @@
       <p>Si deseas recibir el dossier pedagógico completo o concertar una breve reunión presencial/online para valorar la viabilidad en tu centro, completa el siguiente formulario.</p>
     </div>
     <div class="form-box">
-      <div class="form-status" id="formStatus"></div>
       <form id="centrosForm" action="https://formspree.io/f/mwleddnq" method="POST">
         <div class="form-grid">
           <div class="form-field full">
@@ -389,14 +385,6 @@
     </div>
   </div>
 </footer>
-
-<script>
-  document.getElementById('centrosForm').addEventListener('submit', function(e) {
-    const submitBtn = e.target.querySelector('button[type="submit"]');
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Enviando...';
-  });
-</script>
 
 </body>
 </html>
