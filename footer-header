@@ -1,0 +1,104 @@
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+<h2 class="sr-only">Vista previa del header y footer de Yoga Kids Club con fondo lila en el footer</h2>
+
+<div style="border: 0.5px solid var(--border); border-radius: 12px; overflow: hidden; font-family: 'Be Vietnam Pro', sans-serif;">
+
+  <header class="sticky top-0 z-50 backdrop-blur-md shadow-sm" style="background: rgba(255,255,255,0.92); border-bottom: 1px solid #f0e2e8;">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-20">
+        <div class="flex items-center space-x-2 cursor-pointer">
+          <span class="text-3xl">🧘‍♀️</span>
+          <a href="#" class="text-2xl sm:text-3xl tracking-wide transition-colors" style="font-family: 'Baloo 2', sans-serif; font-weight: 800; color: #ce7e67;">
+            Yoga Kids Club
+          </a>
+        </div>
+        <nav class="hidden md:flex space-x-8" style="font-weight: 500; color: #4a3b3f;">
+          <a href="#" class="transition-colors py-1 border-b-2 border-transparent" onmouseover="this.style.color='#ce7e67';this.style.borderColor='#ce7e67'" onmouseout="this.style.color='#4a3b3f';this.style.borderColor='transparent'">Inicio</a>
+          <a href="#" class="transition-colors py-1 border-b-2" onmouseover="this.style.color='#ce7e67';this.style.borderColor='#ce7e67'" onmouseout="this.style.color='#4a3b3f';this.style.borderColor='transparent'">Metodología</a>
+          <a href="#" class="transition-colors py-1 border-b-2" onmouseover="this.style.color='#ce7e67';this.style.borderColor='#ce7e67'" onmouseout="this.style.color='#4a3b3f';this.style.borderColor='transparent'">Clases</a>
+          <a href="#" class="transition-colors py-1 border-b-2" onmouseover="this.style.color='#ce7e67';this.style.borderColor='#ce7e67'" onmouseout="this.style.color='#4a3b3f';this.style.borderColor='transparent'">Nosotros</a>
+          <a href="#" class="transition-colors py-1 border-b-2" onmouseover="this.style.color='#ce7e67';this.style.borderColor='#ce7e67'" onmouseout="this.style.color='#4a3b3f';this.style.borderColor='transparent'">Centros</a>
+        </nav>
+        <a href="#" class="hidden md:inline-block px-6 py-2 rounded-full transition-colors" style="background: #ce7e67; color: #fff; font-weight: 700;" onmouseover="this.style.background='#b46f5b'" onmouseout="this.style.background='#ce7e67'">
+          Contactar
+        </a>
+        <button class="md:hidden p-2 rounded-lg" style="color: #ce7e67;">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div style="padding: 2.5rem 1.5rem; text-align: center; color: var(--text-muted); font-size: 13px; background: #fdf6f1;">
+    (aquí iría el contenido de cada página)
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Be+Vietnam+Pro:wght@400;500;700;800&display=swap" rel="stylesheet">
+<h2 class="sr-only">Vista previa del footer con 3 columnas siempre en fila</h2>
+
+<div style="border: 0.5px solid var(--border); border-radius: 12px; overflow: hidden; font-family: 'Be Vietnam Pro', sans-serif;">
+
+  <footer style="background: #d4b5e0; color: #4a3b3f;">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-16">
+
+      <!-- Brand centrada arriba -->
+      <div class="text-center mb-10">
+        <div class="flex items-center justify-center space-x-2 mb-3">
+          <span class="text-2xl">🧘‍♀️</span>
+          <span class="text-xl" style="font-family: 'Baloo 2', sans-serif; font-weight: 700; color: #ce7e67;">Yoga Kids Club</span>
+        </div>
+        <p class="text-sm max-w-md mx-auto" style="color: #5f4d54;">Movimiento consciente, mindfulness y educación emocional para la infancia.</p>
+      </div>
+
+      <!-- 3 columnas SIEMPRE en fila, incluso en móvil -->
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem;" class="mb-12">
+        <div>
+          <h4 class="text-sm sm:text-lg mb-3 sm:mb-4" style="font-family: 'Baloo 2', sans-serif; font-weight: 700; color: #ffffff;">Navegación</h4>
+          <ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm" style="color: #5f4d54;">
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Home</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Servicios</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Sobre YKC</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Centros</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm sm:text-lg mb-3 sm:mb-4" style="font-family: 'Baloo 2', sans-serif; font-weight: 700; color: #ffffff;">Servicios</h4>
+          <ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm" style="color: #5f4d54;">
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Extraescolares</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Talleres 0-3</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Eventos</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Escuelas</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-sm sm:text-lg mb-3 sm:mb-4" style="font-family: 'Baloo 2', sans-serif; font-weight: 700; color: #ffffff;">Contacto</h4>
+          <ul class="space-y-1.5 sm:space-y-2 text-xs sm:text-sm" style="color: #5f4d54;">
+            <li>📍 Vallès Oriental</li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">✉️ Email</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">📲 WhatsApp</a></li>
+            <li><a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">📸 Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4" style="border-top: 1px solid #c19bd0;">
+        <span class="text-xs sm:text-sm text-center" style="color: #5f4d54;">© 2026 Yoga Kids Club. Todos los derechos reservados.</span>
+        <div class="flex gap-4 sm:gap-6 text-xs sm:text-sm" style="color: #5f4d54;">
+          <a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Privacidad</a>
+          <a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Aviso Legal</a>
+          <a href="#" onmouseover="this.style.color='#ce7e67'" onmouseout="this.style.color='#5f4d54'">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+    </div>
+  </footer>
+
+</div>
