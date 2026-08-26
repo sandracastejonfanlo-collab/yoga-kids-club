@@ -69,9 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="footer-bottom">
           <span>© 2026 Yoga Kids Club. Todos los derechos reservados.</span>
           <div class="legal-links">
-            <a href="#">Política de Privacidad</a>
-            <a href="#">Aviso Legal</a>
-            <a href="#">Política de Cookies</a>
+            <a href="politica-de-privacidad">Política de Privacidad</a>
           </div>
         </div>
       </div>
