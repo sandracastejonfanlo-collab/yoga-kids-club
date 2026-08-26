@@ -77,7 +77,24 @@
   .section-head{ max-width:640px; margin:0 auto 52px; text-align:center; }
   .section-head h2{ font-size:clamp(30px,4vw,42px); }
   .section-head p{ margin-top:16px; color:var(--tinta-suave); font-size:17px; }
-
+ /* ---------- FOOTER ---------- */
+  footer{ background:var(--tinta); color:#EDEFE9; padding:60px 0 26px; }
+  .footer-grid{ display:grid; grid-template-columns:1.3fr 1fr 1fr 1fr; gap:40px; }
+  .footer-brand .logo{ color:var(--amarillo); }
+  .footer-brand p{ margin-top:14px; color:#B9C2B6; font-size:14px; max-width:260px; }
+  footer h4{ font-family:'Baloo 2'; font-size:15px; color:var(--verde); margin-bottom:16px; }
+  footer ul{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:10px; }
+  footer a{ color:#DCE2D8; font-size:14px; }
+  footer a:hover{ color:var(--amarillo); }
+  .footer-bottom{ margin-top:50px; padding-top:22px; border-top:1px solid rgba(255,255,255,0.12); display:flex; justify-content:space-between; flex-wrap:wrap; gap:14px; font-size:13px; color:#9AA598; }
+  .footer-bottom a{ color:#9AA598; }
+  .footer-bottom a:hover{ color:#fff; }
+  .legal-links{ display:flex; gap:18px; }
+  @media (max-width:860px){ .footer-grid{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:520px){ .footer-grid{ grid-template-columns:1fr; } }
+  @media (prefers-reduced-motion: reduce){ *{ animation:none !important; transition:none !important; } }
+</style>
+  
 </head>
 <body>
 
